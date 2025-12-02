@@ -30,7 +30,7 @@ const ProfileCard = () => {
         {/* Name & Title */}
         <div className="text-center mb-8 space-y-2">
           <h1 className="text-3xl font-bold text-slate-900 tracking-tight">
-            Александр Иванов
+            Максимов Дмитрий Вадимович
           </h1>
           <p className="text-lg text-slate-500 font-medium">
             Product Designer
