@@ -4,10 +4,7 @@ import { Button } from '@/components/ui/button'
 
 const ProfileCard = () => {
   const socialLinks = [
-    { name: 'Github', icon: 'Github', url: 'https://github.com' },
-    { name: 'Linkedin', icon: 'Linkedin', url: 'https://linkedin.com' },
-    { name: 'Twitter', icon: 'Twitter', url: 'https://twitter.com' },
-    { name: 'Instagram', icon: 'Instagram', url: 'https://instagram.com' },
+    { name: 'WhatsApp', icon: 'MessageCircle', url: 'https://wa.me/79870020960' },
   ]
 
   return (
