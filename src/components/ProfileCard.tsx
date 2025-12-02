@@ -33,7 +33,7 @@ const ProfileCard = () => {
             Максимов Дмитрий Вадимович
           </h1>
           <p className="text-lg text-cyan-300 font-medium drop-shadow-[0_0_10px_rgba(103,232,249,0.4)]">
-            Product Designer
+            Contact Card
           </p>
         </div>
 
