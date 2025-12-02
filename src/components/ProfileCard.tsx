@@ -17,9 +17,9 @@ const ProfileCard = () => {
         <div className="flex justify-center mb-8">
           <div className="relative group">
             <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
-            <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg">
+            <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-slate-700 shadow-lg">
               <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop" 
+                src="https://cdn.poehali.dev/files/36eecf0a-d98b-4eaf-872a-b6365bc91638.jpeg" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
