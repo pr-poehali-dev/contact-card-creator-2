@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 const ProfileCard = () => {
   const socialLinks = [
     { name: 'WhatsApp', icon: 'MessageCircle', url: 'https://wa.me/79870020960' },
+    { name: 'VK', icon: 'Music', url: 'https://vk.com/surround.sound' },
   ]
 
   return (
