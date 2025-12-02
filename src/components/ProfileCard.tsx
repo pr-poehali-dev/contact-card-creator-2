@@ -50,13 +50,13 @@ const ProfileCard = () => {
           </a>
 
           <a 
-            href="tel:+79991234567"
+            href="tel:+79870020960"
             className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition-all duration-200 group"
           >
             <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center group-hover:bg-blue-100 transition-colors">
               <Icon name="Phone" size={20} className="text-blue-500" />
             </div>
-            <span className="text-slate-700 font-medium">+7 999 123-45-67</span>
+            <span className="text-slate-700 font-medium">+7 987 002-09-60</span>
           </a>
         </div>
 
