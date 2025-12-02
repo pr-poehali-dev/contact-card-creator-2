@@ -11,7 +11,7 @@ const ProfileCard = () => {
   ]
 
   return (
-    <Card className="w-full max-w-md bg-white/80 backdrop-blur-sm border-0 shadow-2xl overflow-hidden animate-fade-in">
+    <Card className="w-full max-w-md bg-slate-800/90 backdrop-blur-sm border border-slate-700 shadow-2xl overflow-hidden animate-fade-in">
       <div className="p-8 sm:p-12">
         {/* Avatar */}
         <div className="flex justify-center mb-8">
@@ -29,10 +29,10 @@ const ProfileCard = () => {
 
         {/* Name & Title */}
         <div className="text-center mb-8 space-y-2">
-          <h1 className="text-3xl font-bold text-slate-900 tracking-tight">
+          <h1 className="text-3xl font-bold text-white tracking-tight">
             Максимов Дмитрий Вадимович
           </h1>
-          <p className="text-lg text-slate-500 font-medium">
+          <p className="text-lg text-slate-300 font-medium">
             Product Designer
           </p>
         </div>
@@ -41,27 +41,27 @@ const ProfileCard = () => {
         <div className="space-y-3 mb-8">
           <a 
             href="mailto:agressorx8@yandex.ru"
-            className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition-all duration-200 group"
+            className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-700/50 transition-all duration-200 group"
           >
-            <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center group-hover:bg-blue-100 transition-colors">
-              <Icon name="Mail" size={20} className="text-blue-500" />
+            <div className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center group-hover:bg-blue-500/30 transition-colors">
+              <Icon name="Mail" size={20} className="text-blue-400" />
             </div>
-            <span className="text-slate-700 font-medium">agressorx8@yandex.ru</span>
+            <span className="text-slate-200 font-medium">agressorx8@yandex.ru</span>
           </a>
 
           <a 
             href="tel:+79870020960"
-            className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition-all duration-200 group"
+            className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-700/50 transition-all duration-200 group"
           >
-            <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center group-hover:bg-blue-100 transition-colors">
-              <Icon name="Phone" size={20} className="text-blue-500" />
+            <div className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center group-hover:bg-blue-500/30 transition-colors">
+              <Icon name="Phone" size={20} className="text-blue-400" />
             </div>
-            <span className="text-slate-700 font-medium">+7 987 002-09-60</span>
+            <span className="text-slate-200 font-medium">+7 987 002-09-60</span>
           </a>
         </div>
 
         {/* Divider */}
-        <div className="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent mb-8"></div>
+        <div className="h-px bg-gradient-to-r from-transparent via-slate-600 to-transparent mb-8"></div>
 
         {/* Social Links */}
         <div className="flex justify-center gap-3">
@@ -70,11 +70,11 @@ const ProfileCard = () => {
               key={social.name}
               variant="ghost"
               size="icon"
-              className="w-12 h-12 rounded-full hover:bg-blue-50 hover:scale-110 transition-all duration-200"
+              className="w-12 h-12 rounded-full hover:bg-slate-700/50 hover:scale-110 transition-all duration-200"
               asChild
             >
               <a href={social.url} target="_blank" rel="noopener noreferrer">
-                <Icon name={social.icon} size={22} className="text-slate-600 hover:text-blue-500 transition-colors" />
+                <Icon name={social.icon} size={22} className="text-slate-300 hover:text-blue-400 transition-colors" />
               </a>
             </Button>
           ))}
