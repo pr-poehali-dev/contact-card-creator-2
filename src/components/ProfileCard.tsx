@@ -6,6 +6,7 @@ const ProfileCard = () => {
   const socialLinks = [
     { name: 'WhatsApp', icon: 'MessageCircle', url: 'https://wa.me/79870020960' },
     { name: 'VK', icon: 'Music', url: 'https://vk.com/surround.sound' },
+    { name: 'Max.ru', icon: 'Link', url: 'https://max.ru/u/f9LHodD0cOIl6WpmM19gE5O-Wmzd1UG6KOC8rk89geP9_52tUVDb19aWRfE' },
   ]
 
   return (
