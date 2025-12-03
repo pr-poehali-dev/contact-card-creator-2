@@ -64,19 +64,21 @@ const ProfileCard = () => {
         <div className="h-px bg-gradient-to-r from-transparent via-cyan-500/50 to-transparent mb-8 shadow-[0_0_10px_rgba(34,211,238,0.5)]"></div>
 
         {/* Social Links */}
-        <div className="flex justify-center gap-3">
+        <div className="flex justify-center gap-4">
           {socialLinks.map((social) => (
-            <Button
-              key={social.name}
-              variant="ghost"
-              size="icon"
-              className="w-12 h-12 rounded-full hover:bg-slate-700/50 hover:scale-110 transition-all duration-200"
-              asChild
-            >
-              <a href={social.url} target="_blank" rel="noopener noreferrer">
-                <Icon name={social.icon} size={22} className="text-cyan-400 hover:text-cyan-300 transition-colors drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]" />
-              </a>
-            </Button>
+            <div key={social.name} className="flex flex-col items-center gap-1">
+              <span className="text-xs text-cyan-400/80 font-medium">{social.name}</span>
+              <Button
+                variant="ghost"
+                size="icon"
+                className="w-12 h-12 rounded-full hover:bg-slate-700/50 hover:scale-110 transition-all duration-200"
+                asChild
+              >
+                <a href={social.url} target="_blank" rel="noopener noreferrer">
+                  <Icon name={social.icon} size={22} className="text-cyan-400 hover:text-cyan-300 transition-colors drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]" />
+                </a>
+              </Button>
+            </div>
           ))}
         </div>
       </div>
