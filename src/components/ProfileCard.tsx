@@ -19,7 +19,7 @@ const ProfileCard = () => {
             <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-cyan-300 rounded-full blur opacity-50 group-hover:opacity-100 transition duration-500"></div>
             <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-cyan-500/50 shadow-lg shadow-cyan-500/50">
               <img 
-                src="https://cdn.poehali.dev/files/36eecf0a-d98b-4eaf-872a-b6365bc91638.jpeg" 
+                src="https://cdn.poehali.dev/files/43e7e7e3-4164-4489-8150-3e87e8653512.jpeg" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
