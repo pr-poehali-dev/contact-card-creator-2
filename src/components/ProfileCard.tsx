@@ -66,7 +66,7 @@ const ProfileCard = () => {
         {/* Social Links */}
         <div className="flex justify-center gap-4">
           {socialLinks.map((social) => (
-            <div key={social.name} className="flex flex-col items-center gap-1">
+            <div key={social.name} className="flex flex-col items-center gap-0.5">
               <span className="text-xs text-cyan-400/80 font-medium">{social.name}</span>
               <Button
                 variant="ghost"
